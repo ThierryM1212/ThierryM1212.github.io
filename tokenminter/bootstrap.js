@@ -55,6 +55,12 @@
 /******/ 		"./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.wasm": function() {
 /******/ 			return {
 /******/ 				"./ergo_lib_wasm_bg.js": {
+/******/ 					"__wbindgen_object_drop_ref": function(p0i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbindgen_object_drop_ref"](p0i32);
+/******/ 					},
+/******/ 					"__wbindgen_number_new": function(p0f64) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbindgen_number_new"](p0f64);
+/******/ 					},
 /******/ 					"__wbindgen_string_new": function(p0i32,p1i32) {
 /******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbindgen_string_new"](p0i32,p1i32);
 /******/ 					},
@@ -70,83 +76,161 @@
 /******/ 					"__wbindgen_string_get": function(p0i32,p1i32) {
 /******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbindgen_string_get"](p0i32,p1i32);
 /******/ 					},
-/******/ 					"__wbindgen_object_drop_ref": function(p0i32) {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbindgen_object_drop_ref"](p0i32);
+/******/ 					"__wbindgen_object_clone_ref": function(p0i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbindgen_object_clone_ref"](p0i32);
 /******/ 					},
-/******/ 					"__wbindgen_number_new": function(p0f64) {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbindgen_number_new"](p0f64);
+/******/ 					"__wbg_fetch_fb26f738d9707b16": function(p0i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_fetch_fb26f738d9707b16"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_getRandomValues_98117e9a7e993920": function(p0i32,p1i32) {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_getRandomValues_98117e9a7e993920"](p0i32,p1i32);
+/******/ 					"__wbindgen_cb_drop": function(p0i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbindgen_cb_drop"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_randomFillSync_64cc7d048f228ca8": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_randomFillSync_64cc7d048f228ca8"](p0i32,p1i32,p2i32);
+/******/ 					"__wbg_fetch_fe54824ee845f6b4": function(p0i32,p1i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_fetch_fe54824ee845f6b4"](p0i32,p1i32);
 /******/ 					},
-/******/ 					"__wbg_process_2f24d6544ea7b200": function(p0i32) {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_process_2f24d6544ea7b200"](p0i32);
+/******/ 					"__wbg_new_226d109446575877": function() {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_new_226d109446575877"]();
+/******/ 					},
+/******/ 					"__wbg_append_4d85f35672cbffa7": function(p0i32,p1i32,p2i32,p3i32,p4i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_append_4d85f35672cbffa7"](p0i32,p1i32,p2i32,p3i32,p4i32);
+/******/ 					},
+/******/ 					"__wbg_instanceof_Response_ea36d565358a42f7": function(p0i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_instanceof_Response_ea36d565358a42f7"](p0i32);
+/******/ 					},
+/******/ 					"__wbg_url_6e564c9e212456f8": function(p0i32,p1i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_url_6e564c9e212456f8"](p0i32,p1i32);
+/******/ 					},
+/******/ 					"__wbg_status_3a55bb50e744b834": function(p0i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_status_3a55bb50e744b834"](p0i32);
+/******/ 					},
+/******/ 					"__wbg_headers_e4204c6775f7b3b4": function(p0i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_headers_e4204c6775f7b3b4"](p0i32);
+/******/ 					},
+/******/ 					"__wbg_arrayBuffer_0e2a43f68a8b3e49": function(p0i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_arrayBuffer_0e2a43f68a8b3e49"](p0i32);
+/******/ 					},
+/******/ 					"__wbg_newwithstrandinit_c07f0662ece15bc6": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_newwithstrandinit_c07f0662ece15bc6"](p0i32,p1i32,p2i32);
+/******/ 					},
+/******/ 					"__wbg_getRandomValues_3e46aa268da0fed1": function(p0i32,p1i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_getRandomValues_3e46aa268da0fed1"](p0i32,p1i32);
+/******/ 					},
+/******/ 					"__wbg_randomFillSync_59fcc2add91fe7b3": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_randomFillSync_59fcc2add91fe7b3"](p0i32,p1i32,p2i32);
+/******/ 					},
+/******/ 					"__wbg_process_f2b73829dbd321da": function(p0i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_process_f2b73829dbd321da"](p0i32);
 /******/ 					},
 /******/ 					"__wbindgen_is_object": function(p0i32) {
 /******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbindgen_is_object"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_versions_6164651e75405d4a": function(p0i32) {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_versions_6164651e75405d4a"](p0i32);
+/******/ 					"__wbg_versions_cd82f79c98672a9f": function(p0i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_versions_cd82f79c98672a9f"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_node_4b517d861cbcb3bc": function(p0i32) {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_node_4b517d861cbcb3bc"](p0i32);
+/******/ 					"__wbg_node_ee3f6da4130bd35f": function(p0i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_node_ee3f6da4130bd35f"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_crypto_98fc271021c7d2ad": function(p0i32) {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_crypto_98fc271021c7d2ad"](p0i32);
+/******/ 					"__wbg_modulerequire_0a83c0c31d12d2c7": function(p0i32,p1i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_modulerequire_0a83c0c31d12d2c7"](p0i32,p1i32);
 /******/ 					},
-/******/ 					"__wbg_msCrypto_a2cdb043d2bfe57f": function(p0i32) {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_msCrypto_a2cdb043d2bfe57f"](p0i32);
+/******/ 					"__wbg_crypto_9e3521ed42436d35": function(p0i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_crypto_9e3521ed42436d35"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_modulerequire_3440a4bcf44437db": function(p0i32,p1i32) {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_modulerequire_3440a4bcf44437db"](p0i32,p1i32);
+/******/ 					"__wbg_msCrypto_c429c3f8f7a70bb5": function(p0i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_msCrypto_c429c3f8f7a70bb5"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_newnoargs_ac91a24e57fcaec8": function(p0i32,p1i32) {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_newnoargs_ac91a24e57fcaec8"](p0i32,p1i32);
+/******/ 					"__wbindgen_is_function": function(p0i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbindgen_is_function"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_call_9e1eb05d905a21d9": function(p0i32,p1i32) {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_call_9e1eb05d905a21d9"](p0i32,p1i32);
+/******/ 					"__wbg_newnoargs_f579424187aa1717": function(p0i32,p1i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_newnoargs_f579424187aa1717"](p0i32,p1i32);
 /******/ 					},
-/******/ 					"__wbg_self_bce917bbd61b0be0": function() {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_self_bce917bbd61b0be0"]();
+/******/ 					"__wbg_next_c7a2a6b012059a5e": function(p0i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_next_c7a2a6b012059a5e"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_window_08048ce184ae3496": function() {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_window_08048ce184ae3496"]();
+/******/ 					"__wbg_next_dd1a890d37e38d73": function(p0i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_next_dd1a890d37e38d73"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_globalThis_d6f1ff349571af81": function() {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_globalThis_d6f1ff349571af81"]();
+/******/ 					"__wbg_done_982b1c7ac0cbc69d": function(p0i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_done_982b1c7ac0cbc69d"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_global_63b22b64d239db75": function() {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_global_63b22b64d239db75"]();
+/******/ 					"__wbg_value_2def2d1fb38b02cd": function(p0i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_value_2def2d1fb38b02cd"](p0i32);
+/******/ 					},
+/******/ 					"__wbg_iterator_4b9cedbeda0c0e30": function() {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_iterator_4b9cedbeda0c0e30"]();
+/******/ 					},
+/******/ 					"__wbg_get_8bbb82393651dd9c": function(p0i32,p1i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_get_8bbb82393651dd9c"](p0i32,p1i32);
+/******/ 					},
+/******/ 					"__wbg_call_89558c3e96703ca1": function(p0i32,p1i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_call_89558c3e96703ca1"](p0i32,p1i32);
+/******/ 					},
+/******/ 					"__wbg_new_d3138911a89329b0": function() {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_new_d3138911a89329b0"]();
+/******/ 					},
+/******/ 					"__wbg_new_55259b13834a484c": function(p0i32,p1i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_new_55259b13834a484c"](p0i32,p1i32);
+/******/ 					},
+/******/ 					"__wbg_call_94697a95cb7e239c": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_call_94697a95cb7e239c"](p0i32,p1i32,p2i32);
+/******/ 					},
+/******/ 					"__wbg_new_4beacc9c71572250": function(p0i32,p1i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_new_4beacc9c71572250"](p0i32,p1i32);
+/******/ 					},
+/******/ 					"__wbg_resolve_4f8f547f26b30b27": function(p0i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_resolve_4f8f547f26b30b27"](p0i32);
+/******/ 					},
+/******/ 					"__wbg_then_a6860c82b90816ca": function(p0i32,p1i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_then_a6860c82b90816ca"](p0i32,p1i32);
+/******/ 					},
+/******/ 					"__wbg_then_58a04e42527f52c6": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_then_58a04e42527f52c6"](p0i32,p1i32,p2i32);
+/******/ 					},
+/******/ 					"__wbg_self_e23d74ae45fb17d1": function() {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_self_e23d74ae45fb17d1"]();
+/******/ 					},
+/******/ 					"__wbg_window_b4be7f48b24ac56e": function() {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_window_b4be7f48b24ac56e"]();
+/******/ 					},
+/******/ 					"__wbg_globalThis_d61b1f48a57191ae": function() {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_globalThis_d61b1f48a57191ae"]();
+/******/ 					},
+/******/ 					"__wbg_global_e7669da72fd7f239": function() {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_global_e7669da72fd7f239"]();
 /******/ 					},
 /******/ 					"__wbindgen_is_undefined": function(p0i32) {
 /******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbindgen_is_undefined"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_buffer_fbad716641c158a5": function(p0i32) {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_buffer_fbad716641c158a5"](p0i32);
+/******/ 					"__wbg_buffer_5e74a88a1424a2e0": function(p0i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_buffer_5e74a88a1424a2e0"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_newwithbyteoffsetandlength_403faa90cb44b1fb": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_newwithbyteoffsetandlength_403faa90cb44b1fb"](p0i32,p1i32,p2i32);
+/******/ 					"__wbg_newwithbyteoffsetandlength_278ec7532799393a": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_newwithbyteoffsetandlength_278ec7532799393a"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbg_new_c9e78bd69716df92": function(p0i32) {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_new_c9e78bd69716df92"](p0i32);
+/******/ 					"__wbg_new_e3b800e570795b3c": function(p0i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_new_e3b800e570795b3c"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_set_2fd4486048716f38": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_set_2fd4486048716f38"](p0i32,p1i32,p2i32);
+/******/ 					"__wbg_set_5b8081e9d002f0df": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_set_5b8081e9d002f0df"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbg_length_82dd1e63e9c75f09": function(p0i32) {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_length_82dd1e63e9c75f09"](p0i32);
+/******/ 					"__wbg_length_30803400a8f15c59": function(p0i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_length_30803400a8f15c59"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_newwithlength_a9f6c1fd1bf4e5e4": function(p0i32) {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_newwithlength_a9f6c1fd1bf4e5e4"](p0i32);
+/******/ 					"__wbg_newwithlength_5f4ce114a24dfe1e": function(p0i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_newwithlength_5f4ce114a24dfe1e"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_subarray_e80c85d931be89c4": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_subarray_e80c85d931be89c4"](p0i32,p1i32,p2i32);
+/******/ 					"__wbg_subarray_a68f835ca2af506f": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_subarray_a68f835ca2af506f"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbindgen_object_clone_ref": function(p0i32) {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbindgen_object_clone_ref"](p0i32);
+/******/ 					"__wbg_has_3850edde6df9191b": function(p0i32,p1i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_has_3850edde6df9191b"](p0i32,p1i32);
+/******/ 					},
+/******/ 					"__wbg_set_c42875065132a932": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_set_c42875065132a932"](p0i32,p1i32,p2i32);
+/******/ 					},
+/******/ 					"__wbg_stringify_f8bfc9e2d1e8b6a0": function(p0i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbg_stringify_f8bfc9e2d1e8b6a0"](p0i32);
 /******/ 					},
 /******/ 					"__wbindgen_debug_string": function(p0i32,p1i32) {
 /******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbindgen_debug_string"](p0i32,p1i32);
@@ -154,11 +238,11 @@
 /******/ 					"__wbindgen_throw": function(p0i32,p1i32) {
 /******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbindgen_throw"](p0i32,p1i32);
 /******/ 					},
-/******/ 					"__wbindgen_rethrow": function(p0i32) {
-/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbindgen_rethrow"](p0i32);
-/******/ 					},
 /******/ 					"__wbindgen_memory": function() {
 /******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbindgen_memory"]();
+/******/ 					},
+/******/ 					"__wbindgen_closure_wrapper5021": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.js"].exports["__wbindgen_closure_wrapper5021"](p0i32,p1i32,p2i32);
 /******/ 					}
 /******/ 				}
 /******/ 			};
@@ -261,7 +345,7 @@
 /******/ 				promises.push(installedWasmModuleData);
 /******/ 			else {
 /******/ 				var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 				var req = fetch(__webpack_require__.p + "" + {"./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.wasm":"f524a846ab94a424f340"}[wasmModuleId] + ".module.wasm");
+/******/ 				var req = fetch(__webpack_require__.p + "" + {"./node_modules/ergo-lib-wasm-browser/ergo_lib_wasm_bg.wasm":"f58a49bd9bf82c5ac2ad"}[wasmModuleId] + ".module.wasm");
 /******/ 				var promise;
 /******/ 				if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 					promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
