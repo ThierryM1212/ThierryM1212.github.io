@@ -1,0 +1,28 @@
+{
+  "files": {
+    "static/js/0.06463f9a.chunk.js": "/ThierryM1212/cyti/static/js/0.06463f9a.chunk.js",
+    "0b34495dba70160f556a.module.wasm": "/ThierryM1212/cyti/0b34495dba70160f556a.module.wasm",
+    "static/js/0.06463f9a.chunk.js.map": "/ThierryM1212/cyti/static/js/0.06463f9a.chunk.js.map",
+    "main.css": "/ThierryM1212/cyti/static/css/main.f91d91cb.chunk.css",
+    "main.js": "/ThierryM1212/cyti/static/js/main.3b3b864e.chunk.js",
+    "main.js.map": "/ThierryM1212/cyti/static/js/main.3b3b864e.chunk.js.map",
+    "runtime-main.js": "/ThierryM1212/cyti/static/js/runtime-main.4cdb6a37.js",
+    "runtime-main.js.map": "/ThierryM1212/cyti/static/js/runtime-main.4cdb6a37.js.map",
+    "static/css/3.3b6c1b01.chunk.css": "/ThierryM1212/cyti/static/css/3.3b6c1b01.chunk.css",
+    "static/js/3.9490866d.chunk.js": "/ThierryM1212/cyti/static/js/3.9490866d.chunk.js",
+    "static/js/3.9490866d.chunk.js.map": "/ThierryM1212/cyti/static/js/3.9490866d.chunk.js.map",
+    "static/js/4.c806f906.chunk.js": "/ThierryM1212/cyti/static/js/4.c806f906.chunk.js",
+    "static/js/4.c806f906.chunk.js.map": "/ThierryM1212/cyti/static/js/4.c806f906.chunk.js.map",
+    "index.html": "/ThierryM1212/cyti/index.html",
+    "static/css/3.3b6c1b01.chunk.css.map": "/ThierryM1212/cyti/static/css/3.3b6c1b01.chunk.css.map",
+    "static/css/main.f91d91cb.chunk.css.map": "/ThierryM1212/cyti/static/css/main.f91d91cb.chunk.css.map",
+    "static/js/3.9490866d.chunk.js.LICENSE.txt": "/ThierryM1212/cyti/static/js/3.9490866d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4cdb6a37.js",
+    "static/css/3.3b6c1b01.chunk.css",
+    "static/js/3.9490866d.chunk.js",
+    "static/css/main.f91d91cb.chunk.css",
+    "static/js/main.3b3b864e.chunk.js"
+  ]
+}
